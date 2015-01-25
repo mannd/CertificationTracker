@@ -13,6 +13,7 @@
 		8E8360B51A756D1100D253DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8360B41A756D1100D253DC /* Images.xcassets */; };
 		8E8360B81A756D1100D253DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8360B61A756D1100D253DC /* LaunchScreen.xib */; };
 		8E8360C41A756D1100D253DC /* CertificationTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8360C31A756D1100D253DC /* CertificationTrackerTests.swift */; };
+		8E8360CE1A75773000D253DC /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8360CD1A75773000D253DC /* Certificate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8E8360BD1A756D1100D253DC /* CertificationTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CertificationTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8360C21A756D1100D253DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E8360C31A756D1100D253DC /* CertificationTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationTrackerTests.swift; sourceTree = "<group>"; };
+		8E8360CD1A75773000D253DC /* Certificate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Certificate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				8E8360B41A756D1100D253DC /* Images.xcassets */,
 				8E8360B61A756D1100D253DC /* LaunchScreen.xib */,
 				8E8360AB1A756D1100D253DC /* Supporting Files */,
+				8E8360CD1A75773000D253DC /* Certificate.swift */,
 			);
 			path = CertificationTracker;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8360CE1A75773000D253DC /* Certificate.swift in Sources */,
 				8E8360B01A756D1100D253DC /* ViewController.swift in Sources */,
 				8E8360AE1A756D1100D253DC /* AppDelegate.swift in Sources */,
 			);
